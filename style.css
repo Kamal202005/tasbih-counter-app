@@ -1,0 +1,210 @@
+html {
+    background-color: lightgray;
+}
+
+/* Header Section */
+header {
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    font-weight: bold;
+}
+
+/* Menu Icon */
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* Navigation */
+nav {
+    display: none; /* Hide menu by default */
+    text-align: center;
+}
+
+nav ul {
+    background-color: lightgray;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    padding: 10px;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: large;
+}
+
+/* Show Menu */
+.show {
+    display: block !important;
+}
+
+/* BODY */
+
+body {
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    height: 100vh; /* Full viewport height */
+    
+    background-color: lightgray;
+}
+
+
+.counter-container {
+    background-color: #bfbfbf;
+    border-radius: 50px;
+    padding: 20px;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.display {
+    background-color: #fff;
+    border-radius: 10px;
+    width: 80%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #888;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #666;
+}
+#saved-section {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* ==========================
+   TERMS OF USE PAGE (term.html)
+   ========================== */
+   .terms-container {
+    background: white;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: left;
+}
+
+.terms-container h2 {
+    color: #444;
+    margin-top: 20px;
+}
+
+.terms-container p {
+    line-height: 1.5;
+    color: #666;
+}
+
+/* ==========================
+   PRIVACY POLICY PAGE (policy.html)
+   ========================== */
+   .policy-container {
+    background: white;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: left;
+}
+
+.policy-container h2 {
+    color: #444;
+    margin-top: 20px;
+}
+
+.policy-container p {
+    line-height: 1.5;
+    color: #666;
+}
+
+.policy-container a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.policy-container a:hover {
+    text-decoration: underline;
+}
+
+/* ==========================
+   CONTACT US PAGE (contact.html)
+   ========================== */
+   .contact-container {
+    background: white;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: left;
+}
+
+.contact-container h2 {
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.contact-container p {
+    color: #666;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #555;
+}
